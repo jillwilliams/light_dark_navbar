@@ -1,0 +1,28 @@
+/* daniel and ashley */
+.imageOne {
+    width: 300px;
+    margin: 20px;
+}
+
+/* girafe door */
+.door {
+    width: 300px;
+    margin: 20px;
+}
+
+/* gracie in the car */
+.imageTwo {
+    width: 300px;
+    margin: 20px;
+}
+
+/* madalyn */
+.imageThree, .imageFour, .image_five, .image_six {
+    width: 300px;
+    margin: 20px;
+}
+
+.gallery {
+    display: flex;
+    
+}
