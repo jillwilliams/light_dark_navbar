@@ -5,9 +5,9 @@
     cursor: pointer;
 }
 
-/* text: codegeek */
+/* text: our family */
 .navbar h3 {
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 20px;
 }
 
@@ -57,7 +57,6 @@ ul li {
     color: white;
 }
 
-
 .search-box {
     display: flex;
     align-items: center;
@@ -99,4 +98,31 @@ ul li {
 
 .dark .search-box input::placeholder {
     color: orange;
+}
+
+@media (max-width: 768px) {
+    /* text: our family */
+    .navbar h3 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    /* the search glass */
+    .search-icon {
+        width: 0px;
+        height: 0px;
+    }
+    .navbar {
+        padding: 15px 3%;
+    }
+    ul li {
+        margin: 10px 20px;
+        font-size: 30px;
+    }
+    .search-box {
+        opacity: 0;
+    }
+    .toggle-icon {
+        margin-left: -150px;
+        z-index: 1000;
+    }
 }
