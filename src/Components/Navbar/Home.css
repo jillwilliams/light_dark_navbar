@@ -28,7 +28,7 @@
 
 @media (max-width: 768px) {
     .gallery {
-        align-items: center;
-        
+        display: flex;
+        margin-left: 70px;
     }
 }

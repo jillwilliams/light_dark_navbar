@@ -7,3 +7,10 @@
     display: flex;
     
 }
+
+@media (max-width: 768px) {
+    .gallery {
+        display: flex;
+        margin-left: 70px;
+    }
+}
